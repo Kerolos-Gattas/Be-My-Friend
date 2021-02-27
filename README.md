@@ -5,13 +5,18 @@ Game page: https://kento24.itch.io/be-my-friend
 Submission page: https://itch.io/jam/brackeys-5/rate/928667#post-2710198
 
 Puzzle platformer where you try to defeat the enemies and recruit them to your side.
+
 Each level your goal is to defeat the enemy by attacking them and recruiting them to the next level. You will have to switch between characters to make them work together to defeat the next enemy.
 
 
 Controls:
+
 A/D, right/left arrow -  Movment
+
 Space - Use character's ability
+
 Q/E - Switch between characters
+
 R - Restart level
 
 
@@ -19,8 +24,13 @@ Note: There is a slight issue where sometimes the characters will get stuck when
 
 
 Asset Credits:
+
 Music in the background from https://www.FesliyanStudios.com
+
 Health bar art from https://github.com/Brackeys/Health-Bar
+
 Knight character from https://assetstore.unity.com/packages/2d/characters/knight-sprite-sheet-free-93897#description
+
 Sliding gate from https://www.gamedevmarket.net/asset/the-dungeon-top-down-tileset/
+
 Platform tiles and background from https://www.gamedevmarket.net/asset/cartoon-platformer-tileset-pack-1/
