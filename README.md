@@ -1,6 +1,6 @@
 This game was built for the BRACKEYS GAME JAM 2021.1, the jam theme was "Stronger Together"  
 Game page: https://kento24.itch.io/be-my-friend  
-Submission page: https://itch.io/jam/brackeys-5/rate/928667#post-2710198  
+Submission page: https://itch.io/jam/brackeys-5/rate/928667 
 
 
 
