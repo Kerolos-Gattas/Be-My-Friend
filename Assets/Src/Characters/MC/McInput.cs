@@ -20,6 +20,7 @@ public class McInput : MonoBehaviour
     public void deActivateCharacter()
     {
         controls.MC.Disable();
+        HandleStop();
         HandleStartAbility();
         swordSelection.gameObject.SetActive(false);
     }
@@ -40,7 +41,7 @@ public class McInput : MonoBehaviour
         horizontalMove = dir * speed;
     }
 
-    private void HandleStop(Single dir)
+    private void HandleStop()
     {
         horizontalMove = 0;
     }
@@ -63,7 +64,7 @@ public class McInput : MonoBehaviour
     private void OnEnable()
     {
         controls.MC.Move.started += context => HandleMove(context.ReadValue<Single>());
-        controls.MC.Move.canceled += context => HandleStop(context.ReadValue<Single>());
+        controls.MC.Move.canceled += context => HandleStop();
         controls.MC.Ability.started += context => HandleStartAbility();
         controls.MC.Ability.canceled += context => HandleCancelAbility();
         controls.MC.Enable();
